@@ -1,7 +1,7 @@
-body{
-background: #34e89e;
-background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
-background: linear-gradient(to right, #0f3443, #34e89e);
+body {
+    background: #34e89e;
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
+    background: linear-gradient(to right, #0f3443, #34e89e);
 }
 
 .caja {
@@ -23,6 +23,7 @@ nav li {
     margin: 0 0 0 15px;
     color: white;
 }
+
 nav a {
     text-transform: uppercase;
     color: black;
@@ -32,36 +33,43 @@ nav a {
 }
 
 
-.tt{
+.tt {
     text-align: center;
     font-style: oblique;
     font-size: 50px;
     color: brown;
 }
-.caratula{
+
+.caratula {
     text-align: center;
 }
-.p1{
+
+.p1 {
     font-style: italic;
     font-size: medium;
     color: black;
-    
+
 }
-.descarga{
+
+.descarga {
     text-align: center;
 }
-.flechaD{
-    text-align: right;
+
+.flechaD {
+    float: right;
 }
-.flechaI{
+
+.flechaI {
     text-align: left;
 }
+
 footer {
     text-align: center;
     background: url(img/bg.jpg);
     padding: 40px;
 
 }
+
 .copyright {
     color: rgb(255, 255, 255);
     font-size: 16px;
