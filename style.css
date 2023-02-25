@@ -9,6 +9,7 @@ header {
     padding: 20px 0;
 }
 
+
 .caja {
     width: 940px;
     position: relative;
@@ -58,6 +59,7 @@ nav a {
 .perfil{
     text-align: center;
 }
+
 
 footer {
     text-align: center;
