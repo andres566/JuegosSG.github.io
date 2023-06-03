@@ -1,65 +1,83 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: #34e89e;
-    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
-    background: linear-gradient(to right, #0f3443, #34e89e);
-
-}
-header {
-    padding: 20px 0;
-}
+  background: rgb(127, 114, 114);
+  }
 
 
-.caja {
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-   
-}
 
-nav {
-    position: absolute;
-    top: 30px;
-    right: 0;
-}
-
-nav li {
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
     display: inline-block;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
     text-decoration: none;
-}
-
-.productos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.productos li {
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  nav ul li .active {
+    background-color: #555;
+  }
+  
+  .dropdown {
+    position: relative;
     display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: 0 0 25%;
+    padding: 10px;
     box-sizing: border-box;
-    border-color: #000000;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-}
+  }
+  
 
-.perfil{
+  
+  
+
+
+
+
+  .perfil{
     text-align: center;
-}
-
+  }
 
 footer {
     text-align: center;
@@ -73,38 +91,3 @@ footer {
     font-size: 16px;
     margin: 20px;
 }
-
-
-/*aqui inicia nuestra css para nuestra home*/
-
-.titulo-principal {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear:left;
-}
-
-
-.contenido-diferenciales {
-    width: 640px;
-    margin: 0 auto;
-}
-
-.lista-diferenciales {
-    width: 40%;
-    display: inline-block;
-    vertical-align:top;
-}
-.items {
-    line-height:1.5;
-}
-
-.items:before {
-    content:"-"
-}
-
-.items:first-child{
-    font-weight: bold;
-
-}
-
