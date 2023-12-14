@@ -1,113 +1,138 @@
 body {
-background: rgb(127, 114, 114);
+  background: rgb(127, 114, 114);
 }
 
-h4{
-    text-align: center;
-    font-size: 40px;
-    font-style: oblique;
+h4 {
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
 }
 
 nav {
-    background-color: #333;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-  }
-  
-  nav ul li a {
-    display: block;
-    padding: 15px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    background-color: #555;
-  }
-  
-  nav ul li .active {
-    background-color: #555;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: #333;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .item {
-    flex: 0 0 25%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  
+  background-color: #333;
+}
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+nav ul li {
+  display: inline-block;
+}
 
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
 
+nav ul li a:hover {
+  background-color: #555;
+}
 
-.caratula {
-    text-align: center;
+nav ul li .active {
+  background-color: #555;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
+
+.search-bar {
+  text-align: right;
+  position: relative;
+}
+
+#search-results {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  list-style-type: decimal;
+  padding: 0;
+  margin: 0;
+}
+
+#search-results li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+#search-results li:last-child {
+  border-bottom: none;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 0 0 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.caratula {
+  text-align: center;
+}
+
 .p1 {
-    font-style: italic;
-    font-size: medium;
-    color: white;
-   
+  font-style: italic;
+  font-size: medium;
+  color: white;
+
 }
 
 .descarga {
-    text-align: center;
+  text-align: center;
 }
 
-.pagination{
-    text-align: center;
+.pagination {
+  text-align: center;
 }
-  
 
 footer {
-    text-align: center;
-    background: url(img/bg.jpg);
-    padding: 40px;
+  text-align: center;
+  background: url(img/bg.jpg);
+  padding: 40px;
 
 }
 
 .copyright {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    margin: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin: 20px;
 }
